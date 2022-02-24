@@ -7,9 +7,9 @@
 }
 @font-face {
   font-family: 'FZLTSJW';
-  src: url("../fonts/fz/FZLTSJW.TTF") format('truetype');
+  src: url("../fonts/fz/FZFWZhuZGDLMCJW.TTF") format('truetype');
 }
 @font-face {
-  font-family: 'FZLTSJW';
-  src: url("../fonts/fz/FZFWZhuZGDLMCJW.TTF") format('truetype');
+  font-family: 'NotoSerifSC-Regular';
+  src: url("../fonts/google/NotoSerifSC-Regular.otf");
 }

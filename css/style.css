@@ -151,14 +151,14 @@ template {
 }
 @font-face {
   font-family: 'FZLTSJW';
-  src: url("../fonts/fz/FZLTSJW.TTF") format('truetype');
-}
-@font-face {
-  font-family: 'FZLTSJW';
   src: url("../fonts/fz/FZFWZhuZGDLMCJW.TTF") format('truetype');
 }
+@font-face {
+  font-family: 'NotoSerifSC-Regular';
+  src: url("../fonts/google/NotoSerifSC-Regular.otf");
+}
 html {
-  font-family: FZFWZhuZGDLMCJW, FZLTSJW, lanting, PingFang SC, Seguo UI, Microsoft Yahei, Arial;
+  font-family: NotoSerifSC-Regular, FZLTSJW, lanting, PingFang SC, Seguo UI, Microsoft Yahei, Arial;
 }
 html::-webkit-scrollbar {
   width: 8px;
