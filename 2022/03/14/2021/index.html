@@ -228,7 +228,6 @@
                                         <script>
                                             // this function is used to check current theme before page loaded.
                                             (() => {
-                                                alert('reload')
                                                 const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
                                                 const isDark = currentTheme === 'dark';
                                                 const pagebody = document.getElementsByTagName('body')[0]
