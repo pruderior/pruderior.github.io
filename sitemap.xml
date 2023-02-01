@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zxk.one/tag/index.html</loc>
-    
-    <lastmod>2023-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zxk.one/2022/03/15/2021/</loc>
     
     <lastmod>2023-02-01</lastmod>
@@ -48,6 +39,15 @@
   
   <url>
     <loc>https://www.zxk.one/friends/index.html</loc>
+    
+    <lastmod>2023-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zxk.one/tag/index.html</loc>
     
     <lastmod>2023-02-01</lastmod>
     
