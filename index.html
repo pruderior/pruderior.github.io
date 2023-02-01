@@ -129,7 +129,7 @@
     <div class="container profile-container">
     <div class="intro">
         <div class="avatar">
-            <a href="/archives"><img src="/image/zzz_day.jpg"></a>
+            <a href="/archives"><img id='avatar_img'src="/image/zzz_day.jpg"></a>
         </div>
         <div class="nickname">张仙客</div>
         <div class="description"><p>走吧，我们去寻找生命的湖</p>
@@ -183,6 +183,19 @@
         </div>
     </div>
 </div>
+<script>
+    // this function is used to check current theme before page loaded.
+    (() => {
+        const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+        const isDark = currentTheme === 'dark';
+        const pagebody = document.getElementsByTagName('body')[0]
+        if (isDark) {
+            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_night.jpg')
+        } else {
+            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_day.jpg')
+        }
+    })();
+</script>
 
 
             </div>

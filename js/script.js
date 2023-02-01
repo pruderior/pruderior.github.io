@@ -41,20 +41,24 @@ document.ready(
             document.getElementById("switch_default").checked = true;
             // mobile
             document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_night.jpg')
         } else {
             document.getElementById("switch_default").checked = false;
             // mobile
             document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_day.jpg')
         }
         _Blog.toggleTheme = function () {
             if (isDark) {
                 pagebody.classList.add('dark-theme');
                 // mobile
                 document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+                document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_night.jpg')
             } else {
                 pagebody.classList.remove('dark-theme');
                 // mobile
                 document.getElementById("mobile-toggle-theme").innerText = "· Light"
+                document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_day.jpg')
             }
             document.getElementsByClassName('toggleBtn')[0].addEventListener('click', () => {
                 if (pagebody.classList.contains('dark-theme')) {
@@ -71,11 +75,12 @@ document.ready(
                     pagebody.classList.remove('dark-theme');
                     // mobile
                     document.getElementById("mobile-toggle-theme").innerText = "· Light"
-
+                    document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_day.jpg')
                 } else {
                     pagebody.classList.add('dark-theme');
                     // mobile
                     document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+                    document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_night.jpg')
                 }
                 window.localStorage &&
                 window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light',)

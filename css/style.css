@@ -515,15 +515,6 @@ header label {
   transition: all ease 0.4s;
   cursor: pointer;
 }
-.intro .avatar img:hover {
-  position: relative;
-  -webkit-transform: translateY(-0.75em);
-  -moz-transform: translateY(-0.75em);
-  -ms-transform: translateY(-0.75em);
-  -o-transform: translateY(-0.75em);
-  transform: translateY(-0.75em);
-  cursor: pointer;
-}
 .nickname {
   font-size: 2em;
   font-weight: normal;
