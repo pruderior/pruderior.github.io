@@ -17,7 +17,7 @@
 
 
 
-<title>没有话要说的2023 | 张仙客来长安</title>
+<title>我的2024 | 张仙客来长安</title>
 
 
 
@@ -124,12 +124,74 @@
                 <div class="container">
     
         
+            <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+                
 
                     
                         <article class="post-wrap">
                             <header class="post-header">
                                 <h1 class="post-title">
-                                    没有话要说的2023
+                                    我的2024
                                 </h1>
                                 
                                     <div class="post-meta">
@@ -142,7 +204,7 @@
                                                 
                                                     <span class="post-time">
                                                         Date: <a href="#">
-                                                            二月 4, 2024&nbsp;&nbsp;22:51:20
+                                                            二月 8, 2025&nbsp;&nbsp;15:25:20
                                                         </a>
                                                     </span>
                                                     
@@ -152,9 +214,18 @@
                             </header>
 
                             <div class="post-content">
-                                <p>这篇年终总结会拖到二月份写有两个原因，一方面这过去的一年确实对我来说几乎是停滞和重复的，另外一件事是我最近邀请别人来我家喝酒，然后心情低落，房间乱成一团，桌子上的酒渍三个星期后才擦掉。然后我发现，2023年发生的事情里面对我有影响的我一件都无法在这里直接写出来。</p>
-<p>以下省略有影响的大事件描述。</p>
-<p>有些时候我觉得自己说不出话，也是因为我对大部分的事情都缺少深入的见解。</p>
+                                <h2 id="失去目标的生活"><a href="#失去目标的生活" class="headerlink" title="失去目标的生活"></a>失去目标的生活</h2><p>在2022年的年度总结中我曾经提到过关于无聊的话题。 </p>
+<blockquote>
+<p>我陷入了无聊之中，我失去了目标以及完成目标的意志。</p>
+</blockquote>
+<p>我想对于2024的来说这样的情况相对于过去两年的改变很大，我并不觉得我为此做出过什么主动性的努力，更多的是如果维持一个状态久了，我就会不满于现状。我在各个时期都有自己的局限性，会被困于不同的东西，会有不一样的想要的东西。至少现在来说，我又变得野心勃勃。并且使用deepseek给我的震撼很大，也许知识的获取从来都没有像现在这样完全没有限制，甚至是解决方案级别的知识。</p>
+<h2 id="纷纷的情欲"><a href="#纷纷的情欲" class="headerlink" title="纷纷的情欲"></a>纷纷的情欲</h2><p>我再回想这一年的事情的时候，我觉得这里面是有一个关键的人的，就是年初的时候去滑雪的时候认识的一个妹子。我已经很多年没有一个人的与众不同的感觉感染到了，很难讲是一种怎样的感觉，大概是一种极其外向和自由随性的气息。现在想起来自见过以后，我便在潜意识里无限渴望这种感觉。但是我自己后面几乎完全不记得这件事，只是在我写的时候，回想一整年发生的事情我才想到。</p>
+<p>以后我便被侵染上了这种气息，比如和店员聊起来，再比如问陌生人要不要去拍晚霞，再比如后来sy来湾区找我玩的时候，在我们旅行的一路上搭讪了好多好多人，拍了好多照片。当然这中间有很多情绪的波峰波谷，因为这些故事并不全是好的。</p>
+<p>当然也不是全是那件事，或者说我觉得更根本的原因应该是长期健身之后，以及滑雪之后的激素水平和神经可塑性增强。</p>
+<p>我有些时候分不清楚，是和陌生人接触的意愿，还是与人社交的需求，又或是需要个人认同的躁动。但是当这些感觉来的时候，我觉得自己既是失心的病人又是有着无限生命力的活着的人。</p>
+<h2 id="家庭"><a href="#家庭" class="headerlink" title="家庭"></a>家庭</h2><p>今年圣诞节是在xf的美国朋友的老家过的。Grosspapa是个同理心很强的人，对我特别照顾，说自己当年从瑞典来的时候英语也不好，也知道在异国他乡不能和家人团聚的感受。我们下午在一起打乒乓球，一起玩游戏，在大家一起吃饭的时候，他坐在我的旁边。吃完晚饭给我们手工制作的贺卡，每个人的都不一样。</p>
+<p>我觉得很幸福，但是又嫉妒而落寞。</p>
+<p>我已经来美国三年半了，隔辈的长辈都已经不在了。家庭的感觉离我很远，只留下了和父母的联系。</p>
 
                             </div>
 
@@ -178,13 +249,9 @@
                                     </section>
                                     <section class="post-nav">
                                         
-                                            <a class="prev" rel="prev" href="/2025/02/08/2024/">
-                                                我的2024
-                                            </a>
-                                            
                                                 
-                                                    <a class="next" rel="next" href="/2022/12/10/2022/">
-                                                        我的2022
+                                                    <a class="next" rel="next" href="/2024/02/05/2023/">
+                                                        没有话要说的2023
                                                     </a>
                                                     
                                     </section>

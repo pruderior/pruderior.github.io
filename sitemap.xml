@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zxk.one/2022/03/15/2021/</loc>
+    <loc>https://www.zxk.one/2024/02/05/2023/</loc>
     
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +13,16 @@
   <url>
     <loc>https://www.zxk.one/2022/12/10/2022/</loc>
     
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.zxk.one/2024/02/05/2023/</loc>
+    <loc>https://www.zxk.one/2025/02/08/2024/</loc>
     
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,25 +31,7 @@
   <url>
     <loc>https://www.zxk.one/about/index.html</loc>
     
-    <lastmod>2024-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zxk.one/category/index.html</loc>
-    
-    <lastmod>2024-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zxk.one/friends/index.html</loc>
-    
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +40,25 @@
   <url>
     <loc>https://www.zxk.one/tag/index.html</loc>
     
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zxk.one/category/index.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zxk.one/2022/03/15/2021/</loc>
+    
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://www.zxk.one/</loc>
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>https://www.zxk.one/tags/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-02-05</lastmod>
+    <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

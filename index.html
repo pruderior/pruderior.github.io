@@ -81,8 +81,6 @@
                 
                     <a class="menu-item" href="/tag">Tags</a>
                 
-                    <a class="menu-item" href="/friends">Friends</a>
-                
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
             </div>
@@ -103,8 +101,6 @@
                     <a class="menu-item" href="/archives">Posts</a>
                 
                     <a class="menu-item" href="/tag">Tags</a>
-                
-                    <a class="menu-item" href="/friends">Friends</a>
                 
             </div>
         </div>
@@ -129,55 +125,13 @@
     <div class="container profile-container">
     <div class="intro">
         <div class="avatar">
-            <a href="/archives"><img id='avatar_img'src="/image/zzz_day.jpg"></a>
+            <a href="/archives"><img id='avatar_img'src="/image/felix.svg"></a>
         </div>
         <div class="nickname">张仙客</div>
         <div class="description"><p>走吧，我们去寻找生命的湖</p>
 </div>
         <div class="links">
             
-                
-                    <a class="link-item" title="Article" href="/archives">
-                        
-                        
-                            <i class="iconfont icon-article"></i>
-                        
-                    </a>
-                
-                    <a class="link-item" title="Friend" href="/friends">
-                        
-                        
-                            <i class="iconfont icon-friend"></i>
-                        
-                    </a>
-                
-                    <a class="link-item" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zxkonex/">
-                        
-                        
-                            <i class="iconfont icon-instagram"></i>
-                        
-                    </a>
-                
-                    <a class="link-item" title="Weibo" target="_blank" rel="noopener" href="https://weibo.com/iloveuapril">
-                        
-                        
-                            <i class="iconfont icon-weibo"></i>
-                        
-                    </a>
-                
-                    <a class="link-item" title="Github" target="_blank" rel="noopener" href="https://github.com/pruderior">
-                        
-                        
-                            <i class="iconfont icon-github"></i>
-                        
-                    </a>
-                
-                    <a class="link-item" title="Douban" target="_blank" rel="noopener" href="https://www.douban.com/people/87979360">
-                        
-                        
-                            <i class="iconfont icon-douban"></i>
-                        
-                    </a>
                 
             
         </div>
@@ -190,9 +144,9 @@
         const isDark = currentTheme === 'dark';
         const pagebody = document.getElementsByTagName('body')[0]
         if (isDark) {
-            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_night.jpg')
+            document.querySelector('#avatar_img').setAttribute('src', '/image/felix.svg')
         } else {
-            document.querySelector('#avatar_img').setAttribute('src', '/image/zzz_day.jpg')
+            document.querySelector('#avatar_img').setAttribute('src', '/image/felix.svg')
         }
     })();
 </script>
@@ -201,7 +155,8 @@
             </div>
             <footer id="footer" class="footer">
     <div class="copyright">
-        <span>© zxk | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> &
+        <span>© zxk | <a href="mailto:nicolacolax@outlook.com"> Email </a>
+            | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> &
                 <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> &
                 <a href="https://giscus.app/" target="_blank">giscus</a> 
             </span> 

@@ -42,14 +42,14 @@ document.ready(
       document.getElementById("mobile-toggle-theme").innerText = "· Dark";
       var avatar_img_qs = document.querySelector("#avatar_img");
       if (avatar_img_qs != null)
-        avatar_img_qs.setAttribute("src", "/image/zzz_night.jpg");
+        avatar_img_qs.setAttribute("src", "/image/felix.svg");
     } else {
       document.getElementById("switch_default").checked = false;
       // mobile
       document.getElementById("mobile-toggle-theme").innerText = "· Dark";
       var avatar_img_qs = document.querySelector("#avatar_img");
       if (avatar_img_qs != null)
-        avatar_img_qs.setAttribute("src", "/image/zzz_day.jpg");
+        avatar_img_qs.setAttribute("src", "/image/felix.svg");
     }
     _Blog.toggleTheme = function () {
       if (isDark) {
@@ -58,14 +58,14 @@ document.ready(
         document.getElementById("mobile-toggle-theme").innerText = "· Dark";
         var avatar_img_qs = document.querySelector("#avatar_img");
         if (avatar_img_qs != null)
-          avatar_img_qs.setAttribute("src", "/image/zzz_night.jpg");
+          avatar_img_qs.setAttribute("src", "/image/felix.svg");
       } else {
         pagebody.classList.remove("dark-theme");
         // mobile
         document.getElementById("mobile-toggle-theme").innerText = "· Light";
         var avatar_img_qs = document.querySelector("#avatar_img");
         if (avatar_img_qs != null)
-          avatar_img_qs.setAttribute("src", "/image/zzz_day.jpg");
+          avatar_img_qs.setAttribute("src", "/image/felix.svg");
       }
       document
         .getElementsByClassName("toggleBtn")[0]
@@ -92,14 +92,14 @@ document.ready(
               "· Light";
             var avatar_img_qs = document.querySelector("#avatar_img");
             if (avatar_img_qs != null)
-              avatar_img_qs.setAttribute("src", "/image/zzz_day.jpg");
+              avatar_img_qs.setAttribute("src", "/image/felix.svg");
           } else {
             pagebody.classList.add("dark-theme");
             // mobile
             document.getElementById("mobile-toggle-theme").innerText = "· Dark";
             var avatar_img_qs = document.querySelector("#avatar_img");
             if (avatar_img_qs != null)
-              avatar_img_qs.setAttribute("src", "/image/zzz_night.jpg");
+              avatar_img_qs.setAttribute("src", "/image/felix.svg");
           }
           window.localStorage &&
             window.localStorage.setItem(
